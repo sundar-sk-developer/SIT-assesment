@@ -1,0 +1,96 @@
+.about-content {
+    width: 100%;
+    height: 25vh;
+    background-image: url(img/about-6.webp);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about .col-md-12 img{
+   width: 100%;
+   height: 50vh;
+}
+.about .col-md-12{
+    overflow: hidden;
+    transition: all.3s;
+
+}
+.left img{
+    transition: all.3s;
+}
+.left{
+    overflow: hidden;
+}
+.about .col-md-12:hover img{
+    transform: scale(1.03);
+    transition: all.3s ;
+}
+.about .col-md-12 img{
+    transition: all.3s ;
+}
+.left:hover img{
+    transition: all.3s;
+    transform: scale(1.03);
+}
+.about_para p{
+    color: #7a7a7a;
+}
+.side_img1 {
+    position: relative !important;
+
+}
+.orage_page {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    width: 500px !important;
+    height: 250px;
+    position:relative;
+    padding: 30px;
+    top: 50px;
+    right: 150px;
+    background-color:#feb564;  
+}
+
+.orage_page2{
+    position: absolute;
+    top: 60px;
+    left: 300px;
+    width: 500px !important;
+    padding: 60px;
+    background-color:#feb564; 
+}
+.things-box i{
+    padding: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(45deg);
+    transition: all.3s;
+}
+.things-box:hover i{
+    transform: rotate(0deg);
+    transition: all.3s;
+}
+.client .titile h3{
+    color: black;
+}
+.client .col-md-2{
+    transition: all.3s;
+}
+.client .col-md-2:hover{
+    transition: all.3s;
+    transform: scale(1.05);
+
+}
